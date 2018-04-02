@@ -19,19 +19,24 @@ will translate into: http://127.0.0.1:8001/api/v1/namespaces/kubeflow/services/a
 - [Update images for our 0.1 release](https://github.com/kubeflow/kubeflow/pull/508)
 - [Upgrade ks version to 0.9.2](https://github.com/kubeflow/kubeflow/pull/515)
 - [Add parameter to mount path for notebook PVC](https://github.com/kubeflow/kubeflow/pull/469)
-- [Adds Central UI](https://github.com/kubeflow/kubeflow/pull/525)
+- [Add Central UI](https://github.com/kubeflow/kubeflow/pull/525)
+- [Add TfJob dashboard to ksonnet](https://github.com/kubeflow/kubeflow/pull/548)
 
 ### Updates from tf-operator
 
 - [**v1alpha1: Fix e2e test failures**](https://github.com/kubeflow/tf-operator/pull/501)
 - [v1alpha1: Support testing on minikube](https://github.com/kubeflow/tf-operator/pull/485)
 - [v1alpha1: Add proxying to front-end development server](https://github.com/kubeflow/tf-operator/pull/442)
+- [v1alpha1: Add a hack to create example TFJob config](https://github.com/kubeflow/tf-operator/pull/509)
+- [**v1alpha1: Don't leave pods running when a job completes**](https://github.com/kubeflow/tf-operator/pull/512)
 - [**v1alpha2: Support condition in TFJobStatus and add corresponding test cases**](https://github.com/kubeflow/tf-operator/pull/504)
 - [v1alpha2: Check running status more gracefully](https://github.com/kubeflow/tf-operator/pull/507)
+- Add [@mitake][] as reviewer :tada:
 
 ### Updates from Community
 
 [@gaocegege]: https://github.com/gaocegege
+[@mitake]: https://github.com/mitake
 
 - [A coming proposal for Kubeflow cli](https://github.com/kubeflow/kubeflow/issues/522)
 - [Demo show: Reinforcement Learning with tensorflow/agents](https://github.com/kubeflow/examples/tree/master/agents)

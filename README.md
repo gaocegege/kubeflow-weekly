@@ -7,6 +7,7 @@ Edited by: [@gaocegege][]
 ### Updates from Kubeflow
 
 - [sidecar for envoy pod to keep IAP up to date](https://github.com/kubeflow/kubeflow/pull/552)
+- :tada: [Add willb to approvers](https://github.com/kubeflow/kubeflow/pull/542)
 
 ### Updates from tf-operator
 
